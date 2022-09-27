@@ -1,0 +1,10 @@
+TABLE {
+    width: 300px; 
+    border: 3px solid black; 
+   }
+   TD, TH {
+    padding: 1px; 
+   }
+ body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}  
