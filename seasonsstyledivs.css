@@ -1,0 +1,36 @@
+.block1{
+background: red; 
+  border: solid 1px black;
+  border-radius: 28px;
+  width: 25%;
+  padding: 5px; 
+  }
+.block2{
+background: blue;
+border: solid 1px black;
+border-radius: 28px;
+width: 25%;
+padding: 5px;
+position: absolute;
+left: 359px;
+top: 8px;
+}
+ .block3 {
+background: green;
+border: solid 1px black;
+border-radius: 28px;
+width: 25%;
+padding: 5px;
+position: absolute;
+top: 105px;
+} 
+.block4 {
+background: yellow;
+border: solid 1px black;
+border-radius: 28px;
+width: 25%;
+padding: 5px;
+position: absolute;
+top: 105px;
+left: 359px;
+}

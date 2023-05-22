@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+	<link rel="stylesheet" href="stylebroshure.css">
+</head>
+
+<body>
+
+<h3 align="center">Анкета посетителя ресторана</h3>
+<fieldset class="contact-info">
+<legend> Контактная информация.</legend>
+	<p> <label> Имя </label> <input type="text"> </p>
+<p> <label> Телефон </label>  <input type="text"> </p>
+<p> <label> E-mail </label>  <input type="email"> </p>
+<p> <label> Дата посещения </label>  <input type="date"> </p>
+</fieldset> 
+<fieldset>
+<legend> Персональная информация.</legend>
+<p> <label> Возраст </label> <input type="number" min="1" max="100" step="1"> </p>
+<p> <label> Любимая кухня </label> <select name="food"> <option>Русская</option> <option>Итальянская</option> <option>Грузинская</option> <option>Вьетнамская</option> </select> </p>
+<p> <label> Какие блюда Вы бы хотели увидеть в меню? </label> <textarea cols="30" rows="5"> </textarea> </p>
+</fieldset> 
+<fieldset>
+<legend> Оценка нашего заведения.</legend>
+<h3>Почему Вы выбрали именно наше заведение?</h3>
+<input checked name="place" type="Radio" value="Moscow">Недалеко от дома <br>
+<input name="place" type="Radio" value="Moscow">Увидел рекламу <br>
+<input name="place" type="Radio" value="Moscow">Посоветовали <br>
+<input name="place" type="Radio" value="Moscow">Оптимальное соотношение цены и качества <br>
+<h3> Вы будете рекомендовать наше заведение своим знакомым? </h3>
+<input checked name="place" type="Radio" value="Moscow">Да <br>
+<input name="place" type="Radio" value="Moscow">Нет
+</fieldset> 
+<input type="submit" value="Отправить">
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+.info-table {
+  font-size: 16px;
+  border-collapse: collapse;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  }	
+.info-table thead th {
+	background: linear-gradient(#22C041, #00FB31);
+	padding: 15px;
+	border: 2px solid white;
+	color: white;
+	border-top-left-radius: 5 px;
+	border-top-right-radius: 5 px;
+}
+
+.info-table tbody td {
+	background-color:#33FF5B;
+	padding: 15px 7px;
+	border: 2px solid white;
+	text-align: center;
+	width: 40px;
+}
+
+.info-table tbody td:nth-child(1) {
+	background: linear-gradient(to right top, #22C041, #00FB31);
+	padding: 15px;
+	border: 2px solid white;
+	color: white;
+	border-top-left-radius: 5 px;
+	border-top-right-radius: 5 px;
+}
+
+.info-table tfoot {
+	color: green;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.info-table tfoot td:nth-child(1){
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	text-shadow: none;
+	padding: 5px 0;
+}

@@ -1,0 +1,24 @@
+fieldset {
+	background-color: cyan;
+	border-color: bisque;
+	border-radius: 10px;
+	color: brown;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+
+legend {
+	color: navy;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+label {
+	padding-right: 40px;
+	width: 200px;
+	float: left;
+}
+.contact-info input {
+	width: 200px;
+}

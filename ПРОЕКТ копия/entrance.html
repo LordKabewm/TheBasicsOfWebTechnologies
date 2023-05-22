@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Поступление- Визуальная Школа Эзотерики</title>
+  <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <header><h1 align="center">Поступление</h1>
+      <p class="topnav"><a href="index.html">Главная</a><a href="history.html">История</a> <a href="curriculum.html">Расписание</a> <a href="entrance.html" class="active">Поступление</a> <a href="literature.html">Литература</a></p>  
+         </header>
+         <aside>
+          <ul>
+          <li> <a href="#ind1">Что нужно</a></li>
+          <li> <a href="#ind2">Минимальные баллы</a></li>
+          <li> <a href="#ind3">Форма для заполнения</a></li>
+          </ul>
+         </aside>
+         <h2><a name="ind1">Что нужно</a></h2>
+         <div class="soon">
+         <ul>
+          <li>Вводите данные</li>
+          <li>Выбираете вашу ОП</li>
+          <li>???</li>
+          <li>PROFIT!</li>
+         </ul>
+         <p><b>Примечание:</b> Если Вы что-то ввели не так, система Вас попросит сделать это ещё раз.</p>
+         <h2> <a name="ind2">Минимальные баллы(и не только)</a></h2>
+         <table border="1">
+          <tr><th>Название программы</th><th>Минимальный балл (суммарный)</th><th>Требуемые ЕГЭ</th></tr>
+          <tr><td>Филология (мать наша)</td><td>180</td><td>Литература, Иностранный язык</td></tr>
+          <tr><td>Политология</td><td>200</td><td>Обществознание, История, Иностранный Язык</td></tr>
+          <tr><td>Социология</td><td>160</td><td>Литература, Обществознание, Иностранный язык</td></tr>
+          <tr><td>Юриспруденция</td><td>220</td><td>Обществознание, Иностранный язык</td></tr>
+          <tr><td>Востоковедение</td><td>180</td><td>Иностранный язык</td></tr>
+         </table>
+        </div>
+        
+        <div class="soon" postion="relative">
+          <h2><a name="ind3">Форма для заполнения</a></h2>
+          <div class="image" data-title="я после того, как сделал этот сайт">
+          <img src="christ.jpg" width="75%">
+          </div>
+        <form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method="get" target="self">
+        <p>Ваша ОП:</p> 
+          
+          <select class name="Study Programme"> 
+          <option value="philology">Филология</option>
+          <option value="politology">Политология</option>
+          <option value="sociology">Социология</option>
+          <option value="law">Юриспруденция</option>
+          <option value="east studies">Востоковедение</option>
+        </select>
+        <p><input type="checkbox" name="lit" value="lit"> Литература <input type="checkbox" name="lan" value="lan"> Иностранный язык <input type="checkbox" name="soc" value="soc"> Обществознание <input type="checkbox" name="his" value="his"> История</p>
+        <p>Количество баллов за каждый предмет</p>
+        <p>Предмет 1:</p> <input type="number" name="PointsForSubject1" max="100">
+        <p>Предмет 2:</p> <input type="number" name="PointsForSubject2" max="100">
+        <p>Предмет 3(если имеется):</p> <input type="number" name="PointsForSubject3" max="100">
+        <p><button type="reset">Сбросить</button> <button type="submit">Отправить</button></p>
+        </form>
+        </div>
+
+         
+         <div id="footer">
+          <h2><a name="ind4">Фидбэк</a></h2>
+          <p>Есть проблемы с сайтом? Тогда Вам <a href="feedback.html"> сюда! </a> <br> &copy; Жатин Фёдор. Все права защищены.</p>
+         <a href="#top"><img src="White_Arrow_Up.svg.png" align="right" width="5%" max-width="100%" height="auto"> </a>
+          </div>   
+</body>
+</html>
